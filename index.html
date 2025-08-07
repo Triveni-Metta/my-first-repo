@@ -1,15 +1,26 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-<title>Example of Textarea</title> 
-</head> 
-<body> 
-<h2>Leave a Comment to help us serve you better</h2> 
-<form> 
-<label for="comment">Comment on your delivery:</label><br> 
-<textarea id="comment" name="comment" rows="10" cols="30"></textarea>
-<h2>Thanks for your valuable time</h2>
-<input type="submit" value="Submit">
-</form> 
-</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beauty Tips</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Glow Up: Daily Beauty Tips</h1>
+  </header>
+
+  <section class="tip-box">
+    <h2>Today's Beauty Tip</h2>
+    <p id="tip">Click the button to reveal a tip!</p>
+    <button onclick="showRandomTip()">Show Tip</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Beauty Tips by [Your Name]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
